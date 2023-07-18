@@ -15,8 +15,8 @@ body{
 
 header{
     height: 100px;
-    background-color: black;
     color: white;
+    background-color: #000;
 }
 
 .header{
@@ -25,6 +25,7 @@ header{
     margin: auto;
     display: flex;
     align-items: center;
+    
 }
 
 .logo{
@@ -34,10 +35,12 @@ header{
 
 
 .logoimg{
-    width: 80px;
-    height: 80px;
-    background-color: blue;
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/star/logoimg.jpeg');
     border-radius: 50px;
+    background-size: cover;
+    background-position: top;
 }
 
 
@@ -67,13 +70,15 @@ header{
     display: flex;
     height: 100px;
     align-items: center; 
-    border-bottom: 2px solid black;
+    
 }
 
 .menu li a:hover, 
 .menu .active a  {
-    border-bottom: 2px solid blue;
+
     color: #ccc;
+    padding-bottom: 5px;
+    transition: 0.5ms;
 }
 
 
@@ -116,6 +121,20 @@ header{
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
+    
+}
+
+.section-desc-investidor {
+    text-align: center;
+    font-weight: 600;
+    color: white; 
+    padding: 50px;
+    line-height: 30px;
+}
+
+span{
+    text-transform: uppercase;
+    font-size: 20px;
     
 }
 
