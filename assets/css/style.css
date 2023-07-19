@@ -500,9 +500,6 @@ footer {
     .section-map--info-item {
         margin-bottom:20px;
     }
-    .section-map--info-item:last-child {
-        margin-bottom:0;
-    }
 }
 
 
@@ -547,14 +544,7 @@ footer {
         margin-bottom:30px;
     }
 
-    .section-aboutus--right {
-        width:auto;
-        margin-left:30px;
-        margin-right:30px;
-    }
-    .section-aboutus--right img {
-        width:100%;
-    }
+    
 
     .section-services {
         flex-wrap:wrap;
@@ -567,79 +557,13 @@ footer {
         border-left:0;
     }
 
-    .section-projects--filters {
-        margin-left:30px;
-        margin-right:30px;
-    }
+    
     .section-projects--photo {
         width:320px;
     }
     .section-projects--photoarea {
         width:300px;
         height:190px;
-    }
-
-    .section-team {
-        max-width:280px;
-    }
-
-    .section-companies--area {
-        flex-wrap:wrap;
-    }
-    .section-company {
-        min-width: 50%;
-        margin-bottom: 20px;
-    }
-
-    .section-price {
-        flex-wrap:wrap;
-    }
-    .section-price--item {
-        margin-left:20px;
-        min-width:calc(100% - 40px);
-        margin-bottom:20px;
-    }
-    .section-price--item:last-child {
-        margin-right:20px;
-    }
-
-    .section-premium .slidearea {
-        flex-direction: column;
-    }
-    .section-premium--left {
-        text-align:center;
-        margin-bottom:30px;
-    }
-    .section-premium--right {
-        padding-left:20px;
-        padding-right:20px;
-    }
-
-    .section-facts {
-        flex-wrap:wrap;
-    }
-    .section-fact {
-        min-width:100%;
-    }
-
-    .section-share {
-        flex-wrap:wrap;
-        justify-content: flex-start;
-    }
-    .section-share--legend {
-        width:100vw;
-        margin:0;
-        margin-bottom:30px;
-        justify-content: center;
-    }
-    .section-share--item {
-        min-width: 50%;
-        max-width: 50%;
-        margin: 0;
-        justify-content: center;
-        flex-direction: column;
-        margin-bottom: 20px;
-        
     }
 
     .section-contact {
@@ -664,9 +588,7 @@ footer {
     .section-map--info-item {
         margin-bottom:20px;
     }
-    .section-map--info-item:last-child {
-        margin-bottom:0;
-    }
+
 
     .footer--area {
         flex-direction:column;
